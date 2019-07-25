@@ -1,0 +1,17 @@
+<h1 id="requestType">Request Type: {{requestType}}</h1>
+
+<div id="getList">
+  <ul>
+    {{#each property}}
+    <li><strong>Name:</strong> {{@key}} <strong>Value:</strong> {{this}}</li>
+    {{/each}}
+  </ul>
+</div>
+
+<div id="postList">
+  <ul>
+    {{#each body}}
+    <li><strong>Name:</strong> {{@key}} <strong>Value:</strong> {{this}}</li>
+    {{/each}}
+  </ul>
+</div>
